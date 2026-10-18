@@ -25,4 +25,4 @@ const current = parseInt(teamCounter.textContent);
 const teamCounter = document.getElementById(team + "Count");
 teamCounter.textContent = parseInt(teamCounter.textContent) + 1;
 
-})
+});
