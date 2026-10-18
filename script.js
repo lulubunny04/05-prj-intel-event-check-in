@@ -20,7 +20,8 @@ count++
 console.log("Total check-ins: ", count);
 
 const percentage = Math.round((count / maxCount) * 100) + "%";
-const current = parseInt(teamCounter.textContent);
+console.log(`Progress: ${percentage}`);
+
 
 const teamCounter = document.getElementById(team + "Count");
 teamCounter.textContent = parseInt(teamCounter.textContent) + 1;
