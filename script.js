@@ -16,7 +16,7 @@ const teamName = teamSelect.selectedOptions[0].text;
 
 console.log(name, teamName);
 
-count++
+count++;
 console.log("Total check-ins: ", count);
 
 const percentage = Math.round((count / maxCount) * 100) + "%";
