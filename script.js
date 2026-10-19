@@ -27,4 +27,6 @@ const teamCounter = document.getElementById(team + "Count");
 teamCounter.textContent = parseInt(teamCounter.textContent) + 1;
 
 const message = `Welcome ${name} from ${teamName}! You are attendee number ${count}.`;
+
+form.reset();
 });
