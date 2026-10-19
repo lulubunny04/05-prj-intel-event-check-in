@@ -1,6 +1,6 @@
 const form = document.getElementById("checkInForm");
 const nameInput = document.getElementById("attendeeName");
-const teamSelect = document.getElementById("teamselect");
+const teamSelect = document.getElementById("teamSelect");
 
 let count = 0;
 const maxCount = 50;
