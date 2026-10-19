@@ -6,7 +6,7 @@ let count = 0;
 const maxCount = 50;
 
 
-form.addEventListener("submit", function (e) {
+form.addEventListener("submit", function (event) {
   event.preventDefault();
 
 
